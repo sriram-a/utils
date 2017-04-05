@@ -1,0 +1,14 @@
+syntax on
+set tabstop=4 " Number of visual spaces per TAB
+set shiftwidth=4 " Number of spaces in TAB when editing
+"set expandtab " Turn TAB into spaces
+syntax enable " Enable syntax processing
+set number " Show line numbers
+set showcmd             " show command in bottom bar
+set cursorline          " highlight current line
+set showmatch           " highlight matching [{()}]
+"set incsearch " Start searching as you type
+" The only problem with incsearch is that your cursor moves. Do you want it?
+set hlsearch " High search matches
+" turn off search highlight. Leader is usually \
+nnoremap <leader><space> :nohlsearch<CR>
